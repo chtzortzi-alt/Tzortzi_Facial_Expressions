@@ -4,3 +4,5 @@ imaging dataset of 7 classifications of facial expressions, 48x48 pixel grayscal
 28.709 examples in total
 
 https://www.kaggle.com/datasets/msambare/fer2013/data 
+
+forgot the duplicates' check. Therefore, new splits
