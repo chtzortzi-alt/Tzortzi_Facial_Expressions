@@ -1,0 +1,31 @@
+{
+    "experiment": "FER2013 Task 4 baseline",
+    "random_seed": 42,
+    "image_shape": [
+        48,
+        48,
+        1
+    ],
+    "classes": [
+        "angry",
+        "disgust",
+        "fear",
+        "happy",
+        "neutral",
+        "sad",
+        "surprise"
+    ],
+    "training_images": 21528,
+    "validation_images": 5383,
+    "test_images": 7178,
+    "batch_size": 32,
+    "epochs": 10,
+    "optimizer": "adam",
+    "loss": "sparse_categorical_crossentropy",
+    "validation_used_for_tuning": true,
+    "test_set_used_for_tuning": false,
+    "mlp_parameters": 303751,
+    "cnn_parameters": 609159,
+    "tensorflow_version": "2.21.0",
+    "keras_version": "3.13.2"
+}
